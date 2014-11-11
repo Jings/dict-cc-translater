@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "dict.cc Tranlater",
+  "description": "Instant translates any word into selected Language",
+  "version": "0.1",
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "icons/icon-small.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon-big.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_popup": "popup.html"
+  }
+  //"options_page": "options.html"
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>dict.cc Translater</title>
+    <script src="jquery.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center><h1>dict.cc Translater</h1></center>
+    <select id="languageSelect">
+    </select>
+    <input type="text" name="translateWord" id="translateWord" placeholder="Type in..." /><br class="clearBoth" />
+    <p><button id="translate">Translate!</button></p>
+    <table id="translated">
+        <tr id="languagesRow">
+            <td id="outgoingLang"></td>
+            <td id="goalLang"></td>
+        </tr>
+        <tr id="translatedRow">
+        </tr>
+    </table>
+</body>
+</html>
